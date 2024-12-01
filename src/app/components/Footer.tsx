@@ -14,7 +14,7 @@ const footer = () => {
                     type="text"
                     placeholder="Enter your email"
                     className="border border-gray-900 rounded-lg p-2 w-full h-10 focus:outline-none focus:ring-2 focus:ring-blue-500"/>
-                    <p className='text-sm'>By subscribing you agree to with our <span className='underline'>Privacy Policy</span> </p>
+                    <p className='text-sm'>By subscribing you agree to with our <span className="underline">Privacy Policy</span> </p>
                 </div>
                 <button className='border-[1px] border-black w-52 h-10 rounded-lg hover:bg-black hover:text-white duration-300'>Subscribe</button>
             </div>
