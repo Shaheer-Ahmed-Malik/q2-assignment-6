@@ -12,10 +12,10 @@ const Header = () => {
         </ul>
 
         <div className="flex justify-end space-x-4 mr-4">
-          <Image src="/icon/Facebook.svg" alt="logo" height={28} width={28} />
-          <Image src="/icon/Instagram.svg" alt="logo" height={28} width={28} />
-          <Image src="/icon/Twitter.svg" alt="logo" height={28} width={28} />
-          <Image src="/icon/Linkedin.svg" alt="logo" height={28} width={28} />
+          <Image src="/icon/facebook.svg" alt="logo" height={28} width={28} />
+          <Image src="/icon/instagram.svg" alt="logo" height={28} width={28} />
+          <Image src="/icon/twitter.svg" alt="logo" height={28} width={28} />
+          <Image src="/icon/linkedin.svg" alt="logo" height={28} width={28} />
         </div>
       </div>
       <div className="flex m-1 justify-between items-center bg-primary h-14 border-b-[1px] border-black">

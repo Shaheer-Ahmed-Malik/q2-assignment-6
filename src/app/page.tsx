@@ -15,7 +15,7 @@ export default function home() {
               </div>
           </div>
           <div>
-            <Image src="/images/image-1.svg" alt="image" width={420} height={10} className="align" />
+            <Image src="/images/image-main.svg" alt="image" width={420} height={10} className="align" />
           </div>
        </div>
        {/* trusted */}
@@ -209,13 +209,13 @@ export default function home() {
                 {/* YAHA SE */}
                 <div className="w-96 bg-primary rounded-lg">
                   
-                  <Image src="/images/image1.svg" alt="rating star" height={20} width={400} />
+                  <Image src="/images/image1.svg" alt="rating star" height={20} width={4000} />
                 <div className="pl-2">
                     <div>
                       <div className="flex justify-between items-center mt-8 mb-4 mr-4">
                         <h3 className="font-semibold">Design</h3>
                         <div className="flex">
-                          <Image src="/icon/star 1.svg" alt="rating star" height={10} width={20} />
+                          <Image src="/icon/star.svg" alt="rating star" height={10} width={20} />
                           <h4 className="font-semibold">5.0</h4>
                         </div>
                       </div>
@@ -240,7 +240,7 @@ export default function home() {
                       <div className="flex justify-between items-center mt-8 mb-4 mr-4">
                         <h3 className="font-semibold">Programming</h3>
                         <div className="flex">
-                          <Image src="/icon/star 1.svg" alt="rating star" height={10} width={20} />
+                          <Image src="/icon/star.svg" alt="rating star" height={10} width={20} />
                           <h4 className="font-semibold">5.0</h4>
                         </div>
                       </div>
@@ -265,7 +265,7 @@ export default function home() {
                       <div className="flex justify-between items-center mt-8 mb-4 mr-4">
                         <h3 className="font-semibold">Business</h3>
                         <div className="flex">
-                          <Image src="/icon/star 1.svg" alt="rating star" height={10} width={20} />
+                          <Image src="/icon/star.svg" alt="rating star" height={10} width={20} />
                           <h4 className="font-semibold">5.0</h4>
                         </div>
                       </div>
@@ -290,7 +290,7 @@ export default function home() {
                       <div className="flex justify-between items-center mt-8 mb-4 mr-4">
                         <h3 className="font-semibold">Art</h3>
                         <div className="flex">
-                          <Image src="/icon/star 1.svg" alt="rating star" height={10} width={20} />
+                          <Image src="/icon/star.svg" alt="rating star" height={10} width={20} />
                           <h4 className="font-semibold">5.0</h4>
                         </div>
                       </div>
@@ -315,7 +315,7 @@ export default function home() {
                       <div className="flex justify-between items-center mt-8 mb-4 mr-4">
                         <h3 className="font-semibold">Law</h3>
                         <div className="flex">
-                          <Image src="/icon/star 1.svg" alt="rating star" height={10} width={20} />
+                          <Image src="/icon/star.svg" alt="rating star" height={10} width={20} />
                           <h4 className="font-semibold">5.0</h4>
                         </div>
                       </div>
@@ -340,7 +340,7 @@ export default function home() {
                       <div className="flex justify-between items-center mt-8 mb-4 mr-4">
                         <h3 className="font-semibold">Tech</h3>
                         <div className="flex">
-                          <Image src="/icon/star 1.svg" alt="rating star" height={10} width={20} />
+                          <Image src="/icon/star.svg" alt="rating star" height={10} width={20} />
                           <h4 className="font-semibold">5.0</h4>
                         </div>
                       </div>
