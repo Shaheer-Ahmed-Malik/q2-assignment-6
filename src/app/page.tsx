@@ -209,7 +209,7 @@ export default function home() {
                 {/* YAHA SE */}
                 <div className="w-96 bg-primary rounded-lg">
                   
-                  <Image src="/images/image1.svg" alt="rating star" height={20} width={4000} />
+                  <Image src="/images/image-1.svg" alt="rating star" height={20} width={4000} />
                 <div className="pl-2">
                     <div>
                       <div className="flex justify-between items-center mt-8 mb-4 mr-4">
