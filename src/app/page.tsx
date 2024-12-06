@@ -234,7 +234,7 @@ export default function home() {
                 {/* 2nd */}
                 <div className="w-96 bg-primary rounded-lg">
                   
-                  <Image src="/images/image2.svg" alt="rating star" height={20} width={400} />
+                  <Image src="/images/image-2.svg" alt="rating star" height={20} width={400} />
                 <div className="pl-2">
                     <div>
                       <div className="flex justify-between items-center mt-8 mb-4 mr-4">
@@ -259,7 +259,7 @@ export default function home() {
                 {/* 3RD */}
                 <div className="w-96 bg-primary rounded-lg">
                   
-                  <Image src="/images/image3.svg" alt="rating star" height={20} width={400} />
+                  <Image src="/images/image-3.svg" alt="rating star" height={20} width={400} />
                 <div className="pl-2">
                     <div>
                       <div className="flex justify-between items-center mt-8 mb-4 mr-4">
@@ -284,7 +284,7 @@ export default function home() {
                 {/* 4TH */}
                 <div className="w-96 bg-primary rounded-lg">
                   
-                  <Image src="/images/image4.svg" alt="rating star" height={20} width={400} />
+                  <Image src="/images/image-4.svg" alt="rating star" height={20} width={400} />
                 <div className="pl-2">
                     <div>
                       <div className="flex justify-between items-center mt-8 mb-4 mr-4">
@@ -309,7 +309,7 @@ export default function home() {
                 {/* 5TH */}
                 <div className="w-96 bg-primary rounded-lg">
                   
-                  <Image src="/images/image5.svg" alt="rating star" height={20} width={400} />
+                  <Image src="/images/image-5.svg" alt="rating star" height={20} width={400} />
                 <div className="pl-2">
                     <div>
                       <div className="flex justify-between items-center mt-8 mb-4 mr-4">
@@ -334,7 +334,7 @@ export default function home() {
                 {/* 6TH */}
                 <div className="w-96 bg-primary rounded-lg">
                   
-                  <Image src="/images/image6.svg" alt="rating star" height={20} width={400} />
+                  <Image src="/images/image-6.svg" alt="rating star" height={20} width={400} />
                 <div className="pl-2">
                     <div>
                       <div className="flex justify-between items-center mt-8 mb-4 mr-4">
