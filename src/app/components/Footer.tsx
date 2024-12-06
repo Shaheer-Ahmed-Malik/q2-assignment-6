@@ -1,6 +1,6 @@
 import React from 'react'
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className='m-10'>
         <div className='flex justify-between'>
@@ -23,7 +23,7 @@ const footer = () => {
             <div className='grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 mt-20'>
                 <div>
                     <img 
-                    src={"/logo/logo.svg"} 
+                    src="/logo/logo.svg"
                     alt="logo" 
                     height={40}
                     width={125}
@@ -71,10 +71,10 @@ const footer = () => {
                 </div>    
             </div>
             <div className="flex justify-end space-x-4 mr-4 mt-6">
-                 <img src={"/icon/Facebook.svg"} alt="logo" height={28} width={28} />
-                 <img src={"/icon/Instagram.svg"} alt="logo" height={28} width={28} />
-                <img src={"/icon/Twitter.svg"} alt="logo" height={28} width={28} />
-                <img src={"/icon/Linkedin.svg"} alt="logo" height={28} width={28} />
+                 <img src="/icon/Facebook.svg" alt="logo" height={28} width={28} />
+                 <img src="/icon/Instagram.svg" alt="logo" height={28} width={28} />
+                <img src="/icon/Twitter.svg" alt="logo" height={28} width={28} />
+                <img src="/icon/Linkedin.svg" alt="logo" height={28} width={28} />
             </div>
         </div>
         
@@ -82,4 +82,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer
