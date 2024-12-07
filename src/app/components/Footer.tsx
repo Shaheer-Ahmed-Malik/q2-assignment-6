@@ -71,7 +71,7 @@ const Footer = () => {
                 </div>    
             </div>
             <div className="flex justify-end space-x-4 mr-4 mt-6">
-                 <img src="/icon/Facebook-1.svg" alt="logo" height={28} width={28} />
+                 <img src="/icon/facebook-1.svg" alt="logo" height={28} width={28} />
                  <img src="/icon/instagram-2.svg" alt="logo" height={28} width={28} />
                 <img src="/icon/twitter-4.svg" alt="logo" height={28} width={28} />
                 <img src="/icon/linkedin-3.svg" alt="logo" height={28} width={28} />
