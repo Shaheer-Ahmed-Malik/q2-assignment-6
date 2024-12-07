@@ -71,10 +71,10 @@ const Footer = () => {
                 </div>    
             </div>
             <div className="flex justify-end space-x-4 mr-4 mt-6">
-                 <img src="/icon/Facebook.svg" alt="logo" height={28} width={28} />
-                 <img src="/icon/Instagram.svg" alt="logo" height={28} width={28} />
-                <img src="/icon/Twitter.svg" alt="logo" height={28} width={28} />
-                <img src="/icon/Linkedin.svg" alt="logo" height={28} width={28} />
+                 <img src="/icon/Facebook-1.svg" alt="logo" height={28} width={28} />
+                 <img src="/icon/instagram-2.svg" alt="logo" height={28} width={28} />
+                <img src="/icon/twitter-4.svg" alt="logo" height={28} width={28} />
+                <img src="/icon/linkedin-3.svg" alt="logo" height={28} width={28} />
             </div>
         </div>
         
