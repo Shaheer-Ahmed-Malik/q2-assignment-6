@@ -61,16 +61,16 @@ const Footer = () => {
                 </div>
             </div>    
 
-        <div className='flex justify-between border-t-[1px] border-black'>
-            <div className='flex mt-7'>
+        <div className='flex flex-col md:flex-row md:justify-between space-y-4 md:space-y-6 text-center border-t-[1px] border-black'>
+            <div className='flex flex-col md:flex-row mt-7'>
                 <p className='text-sm'>2023 Ddsgnr. All right reserved.</p>
-                <div className='flex space-x-5'>
-                    <p className='text-sm underline ml-5'>Privacy Policy</p>
+                <div className='flex justify-between mt-4 md:mt-0 md:space-x-5'>
+                    <p className='text-sm underline md:ml-5'>Privacy Policy</p>
                     <p className='text-sm underline'>Terms of Service</p>
                     <p className='text-sm underline'>Cookies Settings</p>
                 </div>    
             </div>
-            <div className="flex justify-end space-x-4 mr-4 mt-6">
+            <div className="flex justify-center md:justify-end space-x-4 md:mr-4 md:mt-6">
                  <img src="/icon/facebook-1.svg" alt="logo" height={28} width={28} />
                  <img src="/icon/instagram-2.svg" alt="logo" height={28} width={28} />
                 <img src="/icon/twitter-4.svg" alt="logo" height={28} width={28} />
