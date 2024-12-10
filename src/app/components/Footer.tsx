@@ -3,30 +3,32 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='m-10'>
-        <div className='flex justify-between'>
-            <div>
+        <div className='flex flex-col md:flex-row justify-center md:justify-between text-center md:text-start'>
+            <div className='mb-4'>
                 <h4 className='font-semibold'>Subscribe to our newsletter</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div className='flex space-x-2'>
-               <div>
-                <input
+            <div className='md:flex space-y-4 md:space-y-0 md:space-x-10'>
+                <div>
+                    <input
                     type="text"
                     placeholder="Enter your email"
-                    className="border border-gray-900 rounded-lg p-2 w-full h-10 focus:outline-none focus:ring-2 focus:ring-blue-500"/>
-                    <p className='text-sm'>By subscribing you agree to with our <span className="underline">Privacy Policy</span> </p>
+                    className="border border-gray-900 rounded-lg p-2 w-full md:w-60 h-10 focus:outline-none focus:ring-1 text-center md:text-left focus:ring-blue-500"/>
+                    <p className='text-xs'>By subscribing you agree to with our</p>
+                    <p className="underline text-xs text-slate-500">Privacy Policy</p>
                 </div>
-                <button className='border-[1px] border-black w-52 h-10 rounded-lg hover:bg-black hover:text-white duration-300'>Subscribe</button>
+                <button className='border-[1px] border-black w-full md:w-52 h-10 rounded-lg hover:bg-black hover:text-white duration-300'>Subscribe</button>
             </div>
             
             </div>
-            <div className='grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 mt-20'>
+            <div className='grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 mt-20 text-center md:text-start justify-center'>
                 <div>
                     <img 
                     src="/logo/logo.svg"
                     alt="logo" 
                     height={40}
                     width={125}
+                    className='pb-8'
                     />
                 </div>
                 <div>
