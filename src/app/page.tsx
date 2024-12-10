@@ -5,11 +5,11 @@ export default function home() {
   return(
     <div>
       {/* home */}
-        <div className="flex justify-between items-center mx-36">
+        <div className=" md:flex md:justify-between items-center justify-center text-center p-10 md:mx-36">
           <div>
-            <h1 className="text-6xl font-bold w-[500px]">Learn new skills online with ease</h1>
-            <p className="w-[400px] mt-6">Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
-              <div className="mt-6 space-x-4">
+            <h1 className="text-3xl md:text-6xl font-bold md:w-[500px]">Learn new skills online with ease</h1>
+            <p className="md:w-[400px] mt-6">Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
+              <div className="my-6 space-y-4 md:space-x-4">
                 <button className="bg-black text-white h-12 w-48 rounded-lg hover:scale-105 duration-300">Start learning now</button>
                 <button className="border-2 border-black h-12 w-48 rounded-lg hover:scale-105 duration-300 hover:bg-primary">Explore Courses</button>
               </div>
@@ -19,18 +19,26 @@ export default function home() {
           </div>
        </div>
        {/* trusted */}
-       <div className="flex p-20 bg-primary text-xl font-bold justify-between items-center">
+       <div className="flex flex-col md:flex-row justify-between items-center text-center space-y- h-screen p-20 bg-primary text-xl font-bold ">
           <h2>Trusted by 2000+ companies worldwide</h2>
-          <div className="flex justify-between space-x-4">
+          <div className="flex flex-col md:flex-row items-center justify-between space-y-4 space-x-4">
             <Image src="/logo/air1.svg" alt="aefs" width={130} height={200} />
             <Image src="/logo/air2.svg" alt="aefs" width={130} height={200} />
             <Image src="/logo/air3.svg" alt="aefs" width={130} height={200} />
             <Image src="/logo/air4.svg" alt="aefs" width={130} height={200} />
-            <Image src="/logo/air5.svg" alt="aefs" width={130} height={200} />
+            <Image src="/logo/air5.svg" alt="aefs" width={130} height={200} className="block md:hidden" />
+            <Image src="/logo/air3.svg" alt="aefs" width={130} height={200} className="block md:hidden" />
+            <Image src="/logo/air2.svg" alt="aefs" width={130} height={200} className="block md:hidden" />
+            <Image src="/logo/air1.svg" alt="aefs" width={130} height={200} className="block md:hidden" />
+            <Image src="/logo/air4.svg" alt="aefs" width={130} height={200} className="block md:hidden" />
+            <Image src="/logo/air2.svg" alt="aefs" width={130} height={200} className="block md:hidden" />
+
+
+
           </div>
        </div>
        {/* course */}
-       <div>
+       <div className="p-10 md:p-0">
           <div className="text-center mt-10">
             <h1 className="p-10 text-5xl font-bold ">Explore Courses By Category</h1>
             <p>Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
@@ -205,7 +213,7 @@ export default function home() {
               <p>Your ultimate guide to learning</p>
             </div>
             <div>
-              <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-6 mt-10">
+              <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-6 p-4 md:pl-10 mt-10">
                 {/* YAHA SE */}
                 <div className="w-96 bg-primary rounded-lg">
                   
