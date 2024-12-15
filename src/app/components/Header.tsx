@@ -8,12 +8,12 @@ const Header = () => {
       <div>
         {/* sm */}
         <div className="block md:hidden">
-        <div className="flex justify-between items-center border-b border-black pr-10 pl-6 h-20">
+        <div className="flex justify-between items-center border-b border-black pr-6 pl-2 h-20">
             <Image
-            src="/logo/logo.svg"
+            src="/logo/logo1.svg"
             alt="logo"
-            width={140}
-            height={125} 
+            width={150}
+            height={140} 
             />
             <Image
             src="/icon/hamburger.svg"
@@ -26,7 +26,7 @@ const Header = () => {
         {/* large */}
         <div className="hidden md:block">
         <div className="flex justify-between bg-primary h-14 m-1 border-b-[1px] border-black">
-          <ul className="flex space-x-6 ml-20 items-center">
+          <ul className="flex space-x-6 ml-8 items-center">
             <li>Phone Number: 956 742 455 678</li>
             <li className="border-l-2 border-black px-6">
               Email: info@ddsgnr.com
@@ -60,13 +60,14 @@ const Header = () => {
             />
           </div>
         </div>
+        {/* logo */}
         <div className="flex m-1 justify-between items-center bg-primary h-14 border-b-[1px] border-black">
-          <div className="ml-4">
+          <div>
             <Link href="/">
-              <Image src="/logo/logo.svg" alt="logo" height={40} width={125} />
+              <Image src="/logo/logo1.svg" alt="logo" height={40} width={150} />
             </Link>
           </div>
-          <div className="flex space-x-6 m-5 bg-white border-r-rounded">
+          <div className="flex space-x-6 m-5 pl-3 bg-white rounded">
             <ul className="flex m-1 items-center space-x-6">
               <li className="hover:cursor-pointer hover:underline hover:underline-offset-[15px]">
                 Home
