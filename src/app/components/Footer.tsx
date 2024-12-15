@@ -24,7 +24,7 @@ const Footer = () => {
             <div className='grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 mt-20 text-center md:text-start justify-center'>
                 <div>
                     <img 
-                    src="/logo/logo.svg"
+                    src="/logo/logo1.svg"
                     alt="logo" 
                     height={40}
                     width={125}
